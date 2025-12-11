@@ -6,6 +6,7 @@ import Link from "next/link"
 const services = [
   {
     title: "Personal Care",
+    slug: "personal-care",
     description:
       "Discreet assistance with washing & bathing, dressing & grooming, toileting, continence support and oral hygiene. Always delivered with respect and privacy.",
     icon: "🛁",
@@ -13,6 +14,7 @@ const services = [
   },
   {
     title: "Companionship Care",
+    slug: "companionship-care",
     description: "Perfect for individuals who live alone, need emotional support or wish to stay socially active.",
     icon: "💬",
     items: [
@@ -24,6 +26,7 @@ const services = [
   },
   {
     title: "Medication Support",
+    slug: "medication-support",
     description: "Professional assistance with your medication needs to ensure compliance and safety.",
     icon: "💊",
     items: [
@@ -35,6 +38,7 @@ const services = [
   },
   {
     title: "Meal Preparation & Nutrition",
+    slug: "meal-preparation",
     description: "Ensuring proper nutrition and hydration with meals tailored to your preferences and needs.",
     icon: "🍽️",
     items: [
@@ -46,12 +50,14 @@ const services = [
   },
   {
     title: "Domestic Support",
+    slug: "domestic-support",
     description: "Keeping your home clean, organised and comfortable so you can focus on what matters.",
     icon: "🏠",
     items: ["Cleaning", "Laundry", "Shopping", "Home organisation"],
   },
   {
     title: "Respite Care",
+    slug: "respite-care",
     description: "A trusted break for families and unpaid carers. Flexible hours, days or short-term stays.",
     icon: "🤝",
     items: [
@@ -63,6 +69,7 @@ const services = [
   },
   {
     title: "Hospital Discharge / Reablement",
+    slug: "hospital-discharge",
     description:
       "Fast, safe and coordinated support following a hospital stay. We work closely with nurses, OTs and discharge teams.",
     icon: "🏥",
@@ -75,6 +82,7 @@ const services = [
   },
   {
     title: "End-of-Life Care",
+    slug: "end-of-life-care",
     description: "Supporting individuals and families during difficult times with compassion, dignity and peace.",
     icon: "🕊️",
     items: ["Compassionate support", "Dignity and comfort", "Family liaison", "24/7 availability"],
@@ -117,14 +125,17 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             {services.map((service, index) => (
-              <div
+              <Link
                 key={index}
-                className="bg-card border border-border rounded-2xl p-8 hover:shadow-lg transition-shadow"
+                href={`/services/${service.slug}`}
+                className="bg-card border border-border rounded-2xl p-8 hover:shadow-lg transition-shadow group"
               >
                 <div className="text-4xl mb-4">{service.icon}</div>
-                <h3 className="text-2xl font-bold text-foreground mb-3">{service.title}</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
+                  {service.title}
+                </h3>
                 <p className="text-muted-foreground mb-6">{service.description}</p>
-                <ul className="space-y-2">
+                <ul className="space-y-2 mb-6">
                   {service.items.map((item, i) => (
                     <li key={i} className="flex items-center gap-3 text-foreground">
                       <Check className="w-5 h-5 text-primary flex-shrink-0" />
@@ -132,7 +143,10 @@ export default function ServicesPage() {
                     </li>
                   ))}
                 </ul>
-              </div>
+                <span className="inline-flex items-center gap-2 text-primary font-medium">
+                  Learn more <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </span>
+              </Link>
             ))}
           </div>
         </div>

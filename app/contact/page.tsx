@@ -80,7 +80,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-foreground mb-1">Office Address</h3>
-                    <p className="text-muted-foreground">Address to be confirmed</p>
+                    <p className="text-muted-foreground">83 Bosworth Street, Leicester, LE3 5RB</p>
                   </div>
                 </div>
 
@@ -189,12 +189,12 @@ export default function ContactPage() {
       </section>
 
       {/* Map Placeholder */}
-      <section className="h-96 bg-muted/30 flex items-center justify-center">
+      {/* <section className="h-96 bg-muted/30 flex items-center justify-center">
         <div className="text-center">
           <MapPin className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
           <p className="text-muted-foreground">Map will be displayed here once office address is confirmed</p>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>

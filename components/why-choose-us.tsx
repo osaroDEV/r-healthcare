@@ -37,22 +37,22 @@ export default function WhyChooseUs() {
               ))}
             </ul>
 
-            <Link
+            {/* <Link
               href="/about"
               className="inline-flex items-center gap-2 mt-8 bg-primary text-primary-foreground px-6 py-3 rounded-full font-medium hover:bg-primary/90 transition-colors"
             >
               Meet Our Care Team
-            </Link>
+            </Link> */}
           </div>
 
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden">
               <img src="/professional-healthcare-team-smiling-together.jpg" alt="Our care team" className="w-full h-full object-cover" />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground rounded-2xl p-6 shadow-lg max-w-[220px]">
+            {/* <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground rounded-2xl p-6 shadow-lg max-w-[220px]">
               <div className="text-4xl font-bold mb-1">100%</div>
               <p className="text-sm text-primary-foreground/90">commitment to safe, high-standard, personalised care</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -2,6 +2,8 @@
 
 import { useState } from "react"
 import { Phone, Menu, X } from "lucide-react"
+import Image from "next/image"
+import logo from "@/public/r-h-logo.png"
 import Link from "next/link"
 
 export default function Header() {
@@ -12,10 +14,13 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl font-bold">
-              <span className="text-primary">Ritzy</span>
-              <span className="text-accent"> Healthcare</span>
-            </span>
+            <Image
+              src={logo}
+              alt="ritzy healthcare logo"
+              width={40}
+              height={40}
+              className="h-50 w-50 object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}

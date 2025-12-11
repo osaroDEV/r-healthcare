@@ -1,27 +1,36 @@
-import Link from "next/link"
-import { Facebook, Twitter, Linkedin, Instagram, Phone, Mail } from "lucide-react"
+import logo from "@/public/r-h-logo.png";
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  Mail,
+  Phone,
+  Twitter,
+} from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 const footerLinks = {
   services: [
-    { label: "Personal Care", href: "#" },
-    { label: "Companionship Care", href: "#" },
-    { label: "Medication Support", href: "#" },
-    { label: "Meal Preparation", href: "#" },
-    { label: "Respite Care", href: "#" },
-    { label: "Hospital Discharge", href: "#" },
+    { label: "Personal Care", href: "/services/personal-care" },
+    { label: "Companionship Care", href: "/services/companionship-care" },
+    { label: "Medication Support", href: "/services/medication-support" },
+    { label: "Meal Preparation", href: "/services/meal-preparation" },
+    { label: "Respite Care", href: "/services/respite-care" },
+    { label: "Hospital Discharge", href: "/services/hospital-discharge" },
   ],
-  about: [
+  quicklinks: [
+    { label: "Home", href: "/" },
     { label: "About Us", href: "/about" },
-    { label: "Our Mission", href: "/about" },
-    { label: "Our Values", href: "/about" },
+    // { label: "Our Values", href: "/about" },
     { label: "Careers", href: "/careers" },
   ],
   support: [
     { label: "Contact Us", href: "/contact" },
-    { label: "FAQs", href: "#" },
-    { label: "Request Assessment", href: "/contact" },
+    // { label: "FAQs", href: "#" },
+    // { label: "Request Assessment", href: "/contact" },
   ],
-}
+};
 
 export default function Footer() {
   return (
@@ -30,17 +39,23 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
           {/* Logo and Contact - Updated for Ritzy Healthcare */}
           <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="inline-block mb-6">
-              <span className="text-2xl font-bold">
-                <span className="text-primary">Ritzy</span>
-                <span className="text-white"> Healthcare</span>
-              </span>
+            <Link href="/" className="flex items-center gap-2 -mt-10">
+              <Image
+                src={logo}
+                alt="ritzy healthcare logo"
+                width={150}
+                height={150}
+                className="-ml-7 -mt-4"
+              />
             </Link>
-            <p className="text-accent-foreground/70 text-sm mb-4">
+            <p className="text-accent-foreground/70 text-sm -mt-10 mb-4">
               Compassionate, reliable and person-centred home care services.
             </p>
             <div className="space-y-2 text-sm text-accent-foreground/70 mb-6">
-              <a href="tel:01164105049" className="flex items-center gap-2 hover:text-primary transition-colors">
+              <a
+                href="tel:01164105049"
+                className="flex items-center gap-2 hover:text-primary transition-colors"
+              >
                 <Phone className="w-4 h-4" />
                 01164 105 049
               </a>
@@ -53,16 +68,28 @@ export default function Footer() {
               </a>
             </div>
             <div className="flex gap-4">
-              <a href="#" className="text-accent-foreground/70 hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="text-accent-foreground/70 hover:text-primary transition-colors"
+              >
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="text-accent-foreground/70 hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="text-accent-foreground/70 hover:text-primary transition-colors"
+              >
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="text-accent-foreground/70 hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="text-accent-foreground/70 hover:text-primary transition-colors"
+              >
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="text-accent-foreground/70 hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="text-accent-foreground/70 hover:text-primary transition-colors"
+              >
                 <Instagram className="w-5 h-5" />
               </a>
             </div>
@@ -87,9 +114,9 @@ export default function Footer() {
 
           {/* About */}
           <div>
-            <h3 className="font-bold text-white mb-4">About Us</h3>
+            <h3 className="font-bold text-white mb-4">Quick Links</h3>
             <ul className="space-y-3">
-              {footerLinks.about.map((link) => (
+              {footerLinks.quicklinks.map((link) => (
                 <li key={link.label}>
                   <Link
                     href={link.href}
@@ -128,21 +155,31 @@ export default function Footer() {
         {/* Bottom Bar - Updated copyright */}
         <div className="border-t border-accent-foreground/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-accent-foreground/60 text-sm">
-            © {new Date().getFullYear()} Ritzy Healthcare Ltd. All rights reserved.
+            &copy; {new Date().getFullYear()} Ritzy Healthcare Ltd. All rights
+            reserved. Website by <a href="https://codeillustrated.com/labs" className='underline' target="_blank" rel="noopener noreferrer">Code Illustrated Labs</a>
           </p>
           <div className="flex gap-6 text-sm">
-            <Link href="#" className="text-accent-foreground/60 hover:text-primary transition-colors">
+            <Link
+              href="#"
+              className="text-accent-foreground/60 hover:text-primary transition-colors"
+            >
               Privacy Policy
             </Link>
-            <Link href="#" className="text-accent-foreground/60 hover:text-primary transition-colors">
+            <Link
+              href="#"
+              className="text-accent-foreground/60 hover:text-primary transition-colors"
+            >
               Terms of Service
             </Link>
-            <Link href="#" className="text-accent-foreground/60 hover:text-primary transition-colors">
+            <Link
+              href="#"
+              className="text-accent-foreground/60 hover:text-primary transition-colors"
+            >
               Cookie Policy
             </Link>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }

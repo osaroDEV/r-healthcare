@@ -11,7 +11,10 @@ export const metadata: Metadata = {
   title: "Ritzy Healthcare - Compassionate Home Care Services",
   description:
     "Compassionate, reliable and person-centred home care services. Supporting you or your loved one to live independently, safely and with dignity at home.",
-    generator: 'v0.app'
+    icons: {
+    icon: '/r-h-logo.png',
+  },
+    generator: 'osaroDEV',
 }
 
 export default function RootLayout({
