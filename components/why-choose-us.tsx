@@ -1,5 +1,4 @@
 import { Check } from "lucide-react"
-import Link from "next/link"
 
 const reasons = [
   "Carefully selected, DBS-checked carers",
@@ -29,7 +28,7 @@ export default function WhyChooseUs() {
             <ul className="space-y-4">
               {reasons.map((reason, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary flex items-center justify-center mt-0.5">
+                  <div className="shrink-0 w-6 h-6 rounded-full bg-primary flex items-center justify-center mt-0.5">
                     <Check className="w-4 h-4 text-primary-foreground" />
                   </div>
                   <span className="text-foreground">{reason}</span>
@@ -46,7 +45,7 @@ export default function WhyChooseUs() {
           </div>
 
           <div className="relative">
-            <div className="aspect-[4/3] rounded-2xl overflow-hidden">
+            <div className="aspect-4/3 rounded-2xl overflow-hidden">
               <img src="/professional-healthcare-team-smiling-together.jpg" alt="Our care team" className="w-full h-full object-cover" />
             </div>
             {/* <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground rounded-2xl p-6 shadow-lg max-w-[220px]">

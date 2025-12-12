@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react"
-import Link from "next/link"
 
 const testimonials = [
   {
@@ -73,10 +72,10 @@ export default function Testimonials() {
             <ChevronRight className="w-5 h-5 text-accent-foreground" />
           </button>
         </div>
-
+{/* 
         <Link href="#" className="inline-flex items-center gap-2 mt-8 text-primary font-medium hover:underline">
           Read More Reviews
-        </Link>
+        </Link> */}
       </div>
     </section>
   )

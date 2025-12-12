@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Compassionate, reliable and person-centred home care services. Supporting you or your loved one to live independently, safely and with dignity at home.",
     icons: {
-    icon: '/r-h-logo.png',
+    icon: '/tab-logo.png',
   },
     generator: 'osaroDEV',
 }

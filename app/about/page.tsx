@@ -81,7 +81,7 @@ export default function AboutPage() {
               <img
                 src="/diverse-care-team-smiling-together-in-professional.jpg"
                 alt="Ritzy Healthcare care team"
-                className="rounded-2xl w-full object-cover aspect-[4/3]"
+                className="rounded-2xl w-full object-cover aspect-4/3"
               />
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function AboutPage() {
               <ul className="space-y-4">
                 {trustReasons.map((reason, index) => (
                   <li key={index} className="flex items-start gap-3">
-                    <Check className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
+                    <Check className="w-6 h-6 text-primary shrink-0 mt-0.5" />
                     <span className="text-lg text-white/90">{reason}</span>
                   </li>
                 ))}
@@ -161,7 +161,7 @@ export default function AboutPage() {
               <img
                 src="/happy-elderly-person-with-family-and-professional-.jpg"
                 alt="Family trusting Ritzy Healthcare"
-                className="rounded-2xl w-full object-cover aspect-[4/3]"
+                className="rounded-2xl w-full object-cover aspect-4/3"
               />
             </div>
           </div>

@@ -58,7 +58,7 @@ export default function DomesticSupportPage() {
               <ul className="space-y-3 mb-8">
                 {items.map((item, i) => (
                   <li key={i} className="flex items-center gap-3 text-foreground">
-                    <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                    <Check className="w-5 h-5 text-primary shrink-0" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -86,7 +86,7 @@ export default function DomesticSupportPage() {
               <h3 className="text-xl font-bold text-foreground mb-6">How We Help at Home</h3>
               <div className="space-y-4">
                 <div className="flex gap-4">
-                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
                     <Check className="w-5 h-5 text-primary" />
                   </div>
                   <div>
@@ -95,7 +95,7 @@ export default function DomesticSupportPage() {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
                     <Check className="w-5 h-5 text-primary" />
                   </div>
                   <div>
@@ -104,7 +104,7 @@ export default function DomesticSupportPage() {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
                     <Check className="w-5 h-5 text-primary" />
                   </div>
                   <div>
@@ -113,7 +113,7 @@ export default function DomesticSupportPage() {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
                     <Check className="w-5 h-5 text-primary" />
                   </div>
                   <div>

@@ -1,4 +1,4 @@
-import logo from "@/public/r-h-logo.png";
+import logo from "@/public/logo.png";
 import {
   Facebook,
   Instagram,
@@ -153,12 +153,12 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar - Updated copyright */}
-        <div className="border-t border-accent-foreground/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="m-auto border-t border-accent-foreground/20 mt-12 pt-8 flex flex-col md:flex-row justify-center items-center gap-4">
           <p className="text-accent-foreground/60 text-sm">
             &copy; {new Date().getFullYear()} Ritzy Healthcare Ltd. All rights
             reserved. Website by <a href="https://codeillustrated.com/labs" className='underline' target="_blank" rel="noopener noreferrer">Code Illustrated Labs</a>
           </p>
-          <div className="flex gap-6 text-sm">
+          {/* <div className="flex gap-6 text-sm">
             <Link
               href="#"
               className="text-accent-foreground/60 hover:text-primary transition-colors"
@@ -177,7 +177,7 @@ export default function Footer() {
             >
               Cookie Policy
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Phone, Menu, X } from "lucide-react"
 import Image from "next/image"
-import logo from "@/public/r-h-logo.png"
+import logo from "@/public/logo.png"
 import Link from "next/link"
 
 export default function Header() {
