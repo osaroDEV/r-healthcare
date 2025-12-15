@@ -18,6 +18,8 @@ const footerLinks = {
     { label: "Meal Preparation", href: "/services/meal-preparation" },
     { label: "Respite Care", href: "/services/respite-care" },
     { label: "Hospital Discharge", href: "/services/hospital-discharge" },
+    { label: "End of Life Care", href: "/services/end-of-life-care" },
+    { label: "Domestic Support", href: "/services/domestic-support" },
   ],
   quicklinks: [
     { label: "Home", href: "/" },
