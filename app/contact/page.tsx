@@ -47,7 +47,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-bold text-foreground mb-1">Phone</h3>
                       <a href="tel:01164105049" className="text-muted-foreground hover:text-primary transition-colors">
-                        01164 105 049
+                        0116 410 5049
                       </a>
                     </div>
                   </div>
@@ -61,10 +61,10 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-bold text-foreground mb-1">Email</h3>
                       <a
-                        href="mailto:info@ritzyhealthcare.co.uk"
+                        href="mailto:info@ritzyhealthcare.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        info@ritzyhealthcare.co.uk
+                        info@ritzyhealthcare.com
                       </a>
                     </div>
                   </div>
@@ -78,10 +78,10 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-bold text-foreground mb-1">Website</h3>
                       <a
-                        href="https://www.ritzyhealthcare.co.uk"
+                        href="https://www.ritzyhealthcare.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        www.ritzyhealthcare.co.uk
+                        www.ritzyhealthcare.com
                       </a>
                     </div>
                   </div>

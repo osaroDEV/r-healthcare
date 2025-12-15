@@ -46,7 +46,7 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <a href="tel:01164105049" className="hidden md:inline-flex items-center gap-2 text-primary font-medium">
               <Phone className="w-4 h-4" />
-              01164 105 049
+              0116 410 5049
             </a>
             <Link
               href="/contact"

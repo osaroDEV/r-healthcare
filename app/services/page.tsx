@@ -258,7 +258,7 @@ export default function ServicesPage() {
                 className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-medium hover:bg-white/10 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                01164 105 049
+                0116 410 5049
               </a>
             </div>
           </AnimateOnScroll>

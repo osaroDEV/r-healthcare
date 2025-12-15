@@ -118,7 +118,7 @@ export default function PersonalCarePage() {
                     className="inline-flex items-center justify-center gap-2 border-2 border-primary text-primary px-6 py-3 rounded-full font-medium hover:bg-primary/5 transition-colors"
                   >
                     <Phone className="w-5 h-5" />
-                    01164 105 049
+                    0116 410 5049
                   </a>
                 </div>
               </AnimateOnScroll>

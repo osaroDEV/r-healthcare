@@ -59,14 +59,14 @@ export default function Footer() {
                 className="flex items-center gap-2 hover:text-primary transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                01164 105 049
+                0116 410 5049
               </a>
               <a
-                href="mailto:info@ritzyhealthcare.co.uk"
+                href="mailto:info@ritzyhealthcare.com"
                 className="flex items-center gap-2 hover:text-primary transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                info@ritzyhealthcare.co.uk
+                info@ritzyhealthcare.com
               </a>
             </div>
             <div className="flex gap-4">

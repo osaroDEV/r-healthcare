@@ -29,7 +29,7 @@ export default function CTA() {
               className="inline-flex items-center gap-2 bg-white text-primary px-8 py-4 rounded-full font-medium hover:bg-white/90 transition-colors"
             >
               <Phone className="w-5 h-5" />
-              01164 105 049
+              0116 410 5049
             </a>
             <Link
               href="/contact"
@@ -44,18 +44,18 @@ export default function CTA() {
         <AnimateOnScroll animation="fade-up" delay={300}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-primary-foreground/80 text-sm">
             <a
-              href="mailto:info@ritzyhealthcare.co.uk"
+              href="mailto:info@ritzyhealthcare.com"
               className="flex items-center gap-2 hover:text-white transition-colors"
             >
               <Mail className="w-4 h-4" />
-              info@ritzyhealthcare.co.uk
+              info@ritzyhealthcare.com
             </a>
             <a
-              href="https://www.ritzyhealthcare.co.uk"
+              href="https://www.ritzyhealthcare.com"
               className="flex items-center gap-2 hover:text-white transition-colors"
             >
               <Globe className="w-4 h-4" />
-              www.ritzyhealthcare.co.uk
+              www.ritzyhealthcare.com
             </a>
           </div>
         </AnimateOnScroll>
