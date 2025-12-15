@@ -15,13 +15,13 @@ const testimonials = [
   {
     quote: "From the first assessment, we felt listened to. The carers treat my father with dignity and patience.",
     author: "Michael R.",
-    location: "Birmingham",
+    location: "Anstey",
   },
   {
     quote:
       "The team went above and beyond to understand Dad's needs. He's so much happier with the personalised support he receives.",
     author: "Emma W.",
-    location: "Nottingham",
+    location: "Loughborough",
   },
 ]
 
