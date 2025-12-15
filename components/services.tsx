@@ -10,37 +10,37 @@ const services = [
     description:
       "Discreet assistance with washing, dressing, grooming and toileting, delivered with respect and privacy.",
     image: "/caregiver-helping-elderly-with-personal-care.jpg",
-    href: "/services/personal-care",
+    link: "/services/personal-care",
   },
   {
     title: "Companionship & Social Support",
     description: "Perfect for individuals who live alone, need emotional support or wish to stay socially active.",
     image: "/caregiver-and-elderly-person-having-tea-together.jpg",
-    href: "/services/companionship",
+    link: "/services/companionship-care",
   },
   {
     title: "Medication Assistance",
     description: "Prompting, administering and monitoring medication compliance with professional care.",
     image: "/nurse-helping-with-medication-management.jpg",
-    href: "/services/medication-assistance",
+    link: "/services/medication-support",
   },
   {
     title: "Meal Preparation & Nutrition",
     description: "Preparing fresh, culturally appropriate meals and supporting hydration and dietary needs.",
     image: "/caregiver-preparing-healthy-meal-in-kitchen.jpg",
-    href: "/services/meal-preparation",
+    link: "/services/meal-preparation",
   },
   {
     title: "Respite Care for Families",
     description: "A trusted break for families and unpaid carers with flexible hours, days or short-term stays.",
     image: "/family-relaxing-while-professional-carer-helps.jpg",
-    href: "/services/respite-care",
+    link: "/services/respite-care",
   },
   {
     title: "Hospital Discharge & Reablement",
     description: "Fast, safe and coordinated support following a hospital stay, working with healthcare teams.",
     image: "/nurse-helping-patient-after-hospital-discharge.jpg",
-    href: "/services/hospital-discharge",
+    link: "/services/hospital-discharge",
   },
 ]
 
@@ -58,7 +58,7 @@ export default function Services() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <AnimateOnScroll key={index} animation="scale" delay={index * 100}>
-              <Link href={service.href} className="group relative overflow-hidden rounded-2xl aspect-4/3 block">
+              <Link href={service.link} className="group relative overflow-hidden rounded-2xl aspect-4/3 block">
                 <img
                   src={service.image || "/placeholder.svg"}
                   alt={service.title}
