@@ -107,7 +107,7 @@ export default function AboutPage() {
             <AnimateOnScroll animation="scale" delay={300}>
               <div className="relative">
                 <img
-                  src="/diverse-care-team-smiling-together-in-professional.jpg"
+                  src="/who-we-are.png"
                   alt="Ritzy Healthcare care team"
                   className="rounded-2xl w-full object-cover aspect-4/3"
                 />
