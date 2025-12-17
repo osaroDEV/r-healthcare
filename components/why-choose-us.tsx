@@ -63,7 +63,7 @@ export default function WhyChooseUs() {
             <div className="relative">
               <div className="aspect-4/3 rounded-2xl overflow-hidden">
                 <img
-                  src="/professional-healthcare-team-smiling-together.jpg"
+                  src="/team.png"
                   alt="Our care team"
                   className="w-full h-full object-cover"
                 />

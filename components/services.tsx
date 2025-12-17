@@ -9,7 +9,7 @@ const services = [
     title: "Personal Care & Daily Living",
     description:
       "Discreet assistance with washing, dressing, grooming and toileting, delivered with respect and privacy.",
-    image: "/caregiver-helping-elderly-with-personal-care.jpg",
+    image: "/personal-care.jpg",
     link: "/services/personal-care",
   },
   {
@@ -21,13 +21,13 @@ const services = [
   {
     title: "Medication Assistance",
     description: "Prompting, administering and monitoring medication compliance with professional care.",
-    image: "/nurse-helping-with-medication-management.jpg",
+    image: "/medication-assistance.png",
     link: "/services/medication-support",
   },
   {
     title: "Meal Preparation & Nutrition",
     description: "Preparing fresh, culturally appropriate meals and supporting hydration and dietary needs.",
-    image: "/caregiver-preparing-healthy-meal-in-kitchen.jpg",
+    image: "/meal-preparation.jpg",
     link: "/services/meal-preparation",
   },
   {
