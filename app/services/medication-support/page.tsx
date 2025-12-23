@@ -6,7 +6,7 @@ import Header from "@/components/header";
 import { ArrowRight, Check, Phone } from "lucide-react";
 import Link from "next/link";
 
-export default function MedicationSupportPage() {
+export default function MedicationAdministrationPage() {
   const items = [
     "Prompting",
     "Administering (where appropriate)",
@@ -39,7 +39,7 @@ export default function MedicationSupportPage() {
                 Services
               </Link>
               <span className="mx-2">/</span>
-              <span className="text-white">Medication Support</span>
+              <span className="text-white">Medication Administration</span>
             </nav>
           </AnimateOnScroll>
           <AnimateOnScroll animation="fade-up" delay={100}>

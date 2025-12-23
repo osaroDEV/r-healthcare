@@ -14,7 +14,7 @@ const footerLinks = {
   services: [
     { label: "Personal Care", href: "/services/personal-care" },
     { label: "Companionship Care", href: "/services/companionship-care" },
-    { label: "Medication Support", href: "/services/medication-support" },
+    { label: "Medication Administration", href: "/services/medication-administration" },
     { label: "Meal Preparation", href: "/services/meal-preparation" },
     { label: "Respite Care", href: "/services/respite-care" },
     { label: "Hospital Discharge", href: "/services/hospital-discharge" },

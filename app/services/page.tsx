@@ -35,8 +35,8 @@ const services = [
     ],
   },
   {
-    title: "Medication Support",
-    slug: "medication-support",
+    title: "Medication Administration",
+    slug: "medication-administration",
     description:
       "Professional assistance with your medication needs to ensure compliance and safety.",
     icon: "💊",

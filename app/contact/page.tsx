@@ -173,7 +173,7 @@ export default function ContactPage() {
                       <option value="">Select care type</option>
                       <option value="personal-care">Personal Care</option>
                       <option value="companionship">Companionship Care</option>
-                      <option value="medication">Medication Support</option>
+                      <option value="medication">Medication Administration</option>
                       <option value="meal-prep">Meal Preparation</option>
                       <option value="domestic">Domestic Support</option>
                       <option value="respite">Respite Care</option>

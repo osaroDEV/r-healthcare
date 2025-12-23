@@ -204,7 +204,7 @@ export default function CompanionshipCarePage() {
               </p>
             </Link>
             <Link
-              href="/services/medication-support"
+              href="/services/medication-administration"
               className="bg-card border border-border rounded-xl p-4 hover:shadow-md transition-shadow"
             >
               <h3 className="font-semibold text-foreground">

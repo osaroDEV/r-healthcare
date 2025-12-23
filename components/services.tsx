@@ -19,10 +19,10 @@ const services = [
     link: "/services/companionship-care",
   },
   {
-    title: "Medication Assistance",
+    title: "Medication Administration",
     description: "Prompting, administering and monitoring medication compliance with professional care.",
     image: "/medication-assistance.png",
-    link: "/services/medication-support",
+    link: "/services/medication-administration",
   },
   {
     title: "Meal Preparation & Nutrition",
